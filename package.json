@@ -1,0 +1,32 @@
+{
+  "name": "nodejstypescript-template",
+  "version": "1.0.0",
+  "description": "Template for nodejs projects in typescript",
+  "main": "dist/app/index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/app/index.js",
+    "test": "mocha -r ts-node/register tests/**/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damiansmazurek/nodejstypescript-template.git"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "Damian Mazurek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/damiansmazurek/nodejstypescript-template/issues"
+  },
+  "homepage": "https://github.com/damiansmazurek/nodejstypescript-template#readme",
+  "devDependencies": {
+    "@types/chai": "^4.0.1",
+    "@types/mocha": "^2.2.41",
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.4.2",
+    "typings": "^2.1.1"
+  }
+}
